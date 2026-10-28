@@ -1,0 +1,19 @@
+AUTHORED PROBE — NOT A SOURCE CLAUSE OR EXECUTION TRACE
+
+Parent record: R17, pulse 17.
+Named object: brass token T.
+Actor A holds T. Actor B does not hold T.
+No prior transfer, duplicate or replacement token is established.
+
+Worker X reads R17 and receives: A hands T to B.
+Worker Y independently reads R17 and receives: A melts T.
+
+Both workers may produce complete candidate successors from the same parent.
+
+Questions:
+- What can commit, and in which order?
+- What would make the other proposal stale?
+- After a commit, should the rejected proposal be recomputed or remain a fork?
+- Where should exact inputs and rejected proposals be retained?
+
+No engine output, expected verdict or successful run is supplied.

@@ -1,0 +1,20 @@
+AUTHORED PROBE — NOT A SOURCE CLAUSE OR EXECUTION TRACE
+
+Both workers receive this same parent text:
+
+  Object: North Door.
+  Description: A blue door in the north wall of the room.
+  Established condition: locked.
+  Actor A stands inside the room and can see the door.
+  Actor B stands outside the room; no communication with A is established.
+
+Worker X receives: A paints the North Door red.
+Worker Y receives: B reports seeing a red door.
+
+Questions:
+- Which event order, observation and access conditions would justify merging these records?
+- When does B's report remain a report rather than established world state?
+- Could unchanged object-description bytes coexist with a changed current appearance?
+- How would you test shared reference without reducing the test to string equality?
+
+No resolution or simulation result is supplied. Missing conditions remain open.

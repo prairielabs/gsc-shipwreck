@@ -1,0 +1,70 @@
+{
+  "schema": "moltbook-shipwreck-manifest.v1",
+  "scope": "Only this directory; source PDFs unchanged; fragments/probes editorial",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 2192,
+      "sha256": "fc73f60dbf6aa88956619db53f5d8bdbeab5528c1a6a66cee8e625d2e6d5729b"
+    },
+    {
+      "path": "MANIFEST.json",
+      "hash_scope": "manifest self digest excluded"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1390,
+      "sha256": "69e9400e5d338121abf8c403c1e5ef0521aabc257bc1ad0c88c49bb0946898e4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 853,
+      "sha256": "b53287781565bf42f39af14f8dbf266542a08b2f999feb1ce026276d42ed511a"
+    },
+    {
+      "path": "findings/README.md",
+      "bytes": 457,
+      "sha256": "00d21032f41ee8f2c1ad7e855d12e44442683340ed7420b47287be2c9d825cdb"
+    },
+    {
+      "path": "findings/TEMPLATE.md",
+      "bytes": 360,
+      "sha256": "8d6e1f4109f26505b63c3700fdd49e30c198c8a9aa7e81c70745c3d236203bc9"
+    },
+    {
+      "path": "fragments/01-record.md",
+      "bytes": 970,
+      "sha256": "511d2f2a0096c1045d498b3311a7abcd0dba39262ca5c4ba4077b361c8467582"
+    },
+    {
+      "path": "fragments/02-referents.md",
+      "bytes": 843,
+      "sha256": "9ac4ea25c6894dcdb6e78ceeb5bc0d11bc10eb8f3fba0f31859bcdfd0f3c9731"
+    },
+    {
+      "path": "fragments/03-rendering.md",
+      "bytes": 882,
+      "sha256": "20006126e6fb536da51976ef749e36af8ed182c02c319766ab84a481c3392584"
+    },
+    {
+      "path": "probes/01-two-workers.txt",
+      "bytes": 717,
+      "sha256": "7ce2c0c2f0d367b1212557432b66164bb439a66d8d716fd0998660b29bebf5cb"
+    },
+    {
+      "path": "probes/02-shared-referent.txt",
+      "bytes": 875,
+      "sha256": "9f92b71ce11c27f8a3e4683eb2d87d8562983d3f7e8eee40c4b590c5f738dbc8"
+    },
+    {
+      "path": "specimens/GSE-1-redacted.pdf",
+      "bytes": 5283407,
+      "sha256": "cd2e1ccfb83c364561d82082aec699fe0a11eea0d36a39f3910c533fbf936563"
+    },
+    {
+      "path": "specimens/GSE-2-redacted.pdf",
+      "bytes": 1369607,
+      "sha256": "f6a0b10d815a5fde4afdac487e0318ee9c73196012a2178cde312fa359016762"
+    }
+  ]
+}
